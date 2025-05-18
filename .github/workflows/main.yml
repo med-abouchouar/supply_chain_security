@@ -3,11 +3,11 @@ name: Generate SBOM Report with Syft
 on:
   workflow_dispatch:
   push:
-  branches:
-    - master
+    branches:
+      - master
   pull_request:
-  branches:
-    - master
+    branches:
+      - master
 
 jobs:
   generate-sbom:
